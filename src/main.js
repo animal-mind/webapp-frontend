@@ -1,8 +1,10 @@
 import Vue from 'vue';
 import './plugins/vuetify';
-import App from './App.vue';
+import App from './App';
 import router from './router';
 import store from './store';
+
+window._ = require('lodash');
 
 Vue.config.productionTip = false;
 
