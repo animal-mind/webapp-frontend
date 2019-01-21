@@ -1,6 +1,6 @@
 <template>
   <v-footer class="fotoer">
-    <div><v-icon>pets</v-icon> Copyright @2018 Team Animal Mind</div>
+    <div>Copyright @2019 Team Animal Mind</div>
   </v-footer>
 </template>
 

@@ -58,10 +58,13 @@ export const doGetTrainerComments = slug => {
     .catch(error => error.response);
 };
 
-export const doGetTrainerReviews = slug => {
+export const doGetTrainerReviews = async slug => {
   const urlEndpoint = `/trainers/${slug}/reviews`;
 
-  return HTTPS.get(urlEndpoint)
-    .then(response => response)
-    .catch(error => error.response);
+  try {
+    const response = await HTTPS.get(urlEndpoint);
+    return response;
+  } catch (error) {
+    return error.response;
+  }
 };

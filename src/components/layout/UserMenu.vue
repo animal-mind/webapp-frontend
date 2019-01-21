@@ -1,7 +1,7 @@
 <template>
   <v-toolbar-items class="user-menu">
     <template v-if="!isLoggedIn">
-      <v-btn flat @click="openLoginModal"> 로그인/회원가입 </v-btn>
+      <v-btn color="info" @click="openLoginModal"> 로그인/회원가입 </v-btn>
       <login-modal v-model="loginModalStatus"></login-modal>
     </template>
     <template v-else>

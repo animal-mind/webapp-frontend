@@ -2,7 +2,7 @@
   <v-toolbar class="top-navigation" white>
     <v-toolbar-title class="_logo">
       <router-link to="/">
-        <img :src="'images/logo_transparent.png'" alt="Animal Mind" height="40" />
+        <img src="../../assets/logo_transparent.png" alt="Animal Mind" height="40" />
       </router-link>
     </v-toolbar-title>
     <v-divider class="mx-3" inset vertical></v-divider>
