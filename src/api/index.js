@@ -1,5 +1,7 @@
+import axios from 'axios';
+
 const BASE_URL = '/api';
-const HTTPS = window.axios.create({ baseURL: BASE_URL });
+const HTTPS = axios.create({ baseURL: BASE_URL });
 
 export const doLogin = ({ email, password }) =>
   HTTPS.post('/login', { email, password })
