@@ -9,9 +9,9 @@ import {
   doGetTrainerDetail,
   doGetTrainerComments,
   doGetTrainerReviews,
-} from '../api';
-import { setAxiosAuth, unsetAxiosAuth } from '../library/auth';
-import { EMAIL_LOGIN_FORM } from '../library/login-modal';
+} from '@/api';
+import { setAxiosAuth, unsetAxiosAuth } from '@/library/auth';
+import { EMAIL_LOGIN_FORM } from '@/library/login-modal';
 
 export const registerUser = ({ commit }, data) =>
   doRegisterUser(data).then(async response => {

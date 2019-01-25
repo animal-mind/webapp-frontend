@@ -39,7 +39,7 @@
 
 <script>
 import { mapActions } from 'vuex';
-import { PASSWORD_RESET_FORM, REGISTER_FORM } from '../../library/login-modal';
+import { PASSWORD_RESET_FORM, REGISTER_FORM } from '@/library/login-modal';
 
 export default {
   name: 'EmailLoginForm',

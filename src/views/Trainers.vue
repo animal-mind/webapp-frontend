@@ -14,8 +14,8 @@
 
 <script>
 import { mapActions, mapState } from 'vuex';
-import TrainerBox from '../components/trainerBox';
-import TrainerSearchBar from '../components/trainerSearchBar';
+import TrainerBox from '@/components/trainerBox';
+import TrainerSearchBar from '@/components/trainerSearchBar';
 
 export default {
   name: 'Trainers',

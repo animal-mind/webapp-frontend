@@ -28,7 +28,7 @@
 </template>
 
 <script>
-import { addOrRemoveItem, checkIfItemExists } from '../../library/array';
+import { addOrRemoveItem, checkIfItemExists } from '@/library/array';
 
 export default {
   name: 'FilterSelect',

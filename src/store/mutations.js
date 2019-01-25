@@ -1,4 +1,4 @@
-import { transformTrainerData } from '../library/transform-trainer-data';
+import { transformTrainerData } from '@/library/transform-trainer-data';
 
 /* eslint-disable no-param-reassign */
 

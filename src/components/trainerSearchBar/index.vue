@@ -33,7 +33,7 @@
 
 <script>
 import { mapState } from 'vuex';
-import FilterSelect from '../filterSelect';
+import FilterSelect from '@/components/filterSelect';
 
 export default {
   name: 'TrainerSearchBar',

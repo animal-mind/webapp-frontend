@@ -1,16 +1,16 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import Home from '../views/Home';
-import Trainers from '../views/Trainers';
-import NotFound from '../views/NotFound';
-import TrainerEdit from '../views/TrainerEdit';
-import TrainerDetail from '../views/TrainerDetail';
-import MyPage from '../views/MyPage';
-import FAQ from '../views/FAQ';
-import Service from '../views/Service';
-import store from '../store';
-import { setAxiosAuth } from '../library/auth';
-import { MENUS } from '../library/constants';
+import Home from '@/views/Home';
+import Trainers from '@/views/Trainers';
+import NotFound from '@/views/NotFound';
+import TrainerEdit from '@/views/TrainerEdit';
+import TrainerDetail from '@/views/TrainerDetail';
+import MyPage from '@/views/MyPage';
+import FAQ from '@/views/FAQ';
+import Service from '@/views/Service';
+import store from '@/store';
+import { setAxiosAuth } from '@/library/auth';
+import { MENUS } from '@/library/constants';
 
 Vue.use(Router);
 

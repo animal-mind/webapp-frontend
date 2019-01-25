@@ -24,7 +24,7 @@
 
 <script>
 import { mapActions, mapState } from 'vuex';
-import LoginModal from '../loginModal/LoginModal';
+import LoginModal from '@/components/loginModal/LoginModal';
 
 export default {
   name: 'UserMenu',

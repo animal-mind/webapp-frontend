@@ -6,7 +6,7 @@
 
 <script>
 import { mapActions, mapState } from 'vuex';
-import TrainerWizard from '../components/trainerWizard';
+import TrainerWizard from '@/components/trainerWizard';
 
 export default {
   name: 'TrainerEdit',

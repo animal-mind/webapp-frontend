@@ -23,7 +23,7 @@
 
 <script>
 import { mapActions } from 'vuex';
-import { EMAIL_LOGIN_FORM } from '../../library/login-modal';
+import { EMAIL_LOGIN_FORM } from '@/library/login-modal';
 
 export default {
   name: 'SimpleLoginForm',

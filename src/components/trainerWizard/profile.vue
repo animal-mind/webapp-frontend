@@ -38,7 +38,7 @@
 </template>
 
 <script>
-import AvatarUpload from '../avatarUpload';
+import AvatarUpload from '@/components/avatarUpload';
 
 export default {
   name: '',

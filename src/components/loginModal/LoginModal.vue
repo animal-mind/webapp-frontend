@@ -18,7 +18,7 @@ import {
   PASSWORD_RESET_FORM,
   REGISTER_FORM,
   SIMPLE_LOGIN_FORM,
-} from '../../library/login-modal';
+} from '@/library/login-modal';
 
 export default {
   name: 'LoginModal',

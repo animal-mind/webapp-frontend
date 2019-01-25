@@ -16,11 +16,11 @@
 
 <script>
 import { mapActions, mapState } from 'vuex';
-import SummaryCard from '../components/trainerDetail/SummaryCard';
-import Gallery from '../components/trainerDetail/Gallery';
-import Comments from '../components/trainerDetail/Comments';
-import Description from '../components/trainerDetail/Description';
-import Reviews from '../components/trainerDetail/Reviews';
+import SummaryCard from '@/components/trainerDetail/SummaryCard';
+import Gallery from '@/components/trainerDetail/Gallery';
+import Comments from '@/components/trainerDetail/Comments';
+import Description from '@/components/trainerDetail/Description';
+import Reviews from '@/components/trainerDetail/Reviews';
 
 export default {
   name: 'TrainerDetail',

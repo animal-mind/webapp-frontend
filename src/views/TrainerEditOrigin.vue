@@ -65,7 +65,7 @@
 
 <script>
 import { mapActions, mapState } from 'vuex';
-import AvatarUpload from '../components/avatarUpload';
+import AvatarUpload from '@/components/avatarUpload';
 
 export default {
   name: 'TrainerEdit',

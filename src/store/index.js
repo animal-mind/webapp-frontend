@@ -3,7 +3,7 @@ import Vuex from 'vuex';
 import * as actions from './actions';
 import * as getters from './getters';
 import mutations from './mutations';
-import { EMAIL_LOGIN_FORM } from '../library/login-modal';
+import { EMAIL_LOGIN_FORM } from '@/library/login-modal';
 
 Vue.use(Vuex);
 

@@ -38,7 +38,7 @@
 
 <script>
 import { mapActions } from 'vuex';
-import { SIMPLE_LOGIN_FORM } from '../../library/login-modal';
+import { SIMPLE_LOGIN_FORM } from '@/library/login-modal';
 
 export default {
   name: 'RegisterForm',
